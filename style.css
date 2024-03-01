@@ -1,0 +1,56 @@
+body{
+    background-color: silver;
+    font-family: "Public Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 200;
+    font-style: normal;
+    margin: 0;
+    padding: 0;
+}
+ 
+.table{
+    width: 80%;
+    margin: 15px auto;
+    border: 2px solid black;
+    box-shadow: 0 0 10px gray;
+    padding: 10px;
+    border-radius: 10px;
+    border-collapse: collapse;
+}
+ 
+.table td, th{
+    border: 1px solid gray;
+    padding: 6px;
+}
+ 
+.table thead{
+    background-color: slategray;
+}
+ 
+.table tfoot{
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+ 
+.table tbody>tr>td:last-child{
+    text-align: right;
+}
+
+.table tbody tr:hover{
+    cursor: pointer;
+    background-color: slategray;
+    color: white;
+    transition: backround-color 0.6s;
+    font-weight: bold;
+}
+
+#container{
+    background-color: white;
+    box-shadow: 0 0 10px gray;
+    height: 100vh; /*vertical height px re vh*/
+    padding: 15px;
+    width: 60%;
+    margin: 0 auto;
+}
+
